@@ -4,8 +4,8 @@ I was tasked on my Operating Systems class to implement a minishell that support
 ## Table of Contents
 - [Features](#features)
 - [Usage](#usage)
-- [Test Cases](#test_cases)
-- [Further Improvements](#further_improvements)
+- [Test_Cases](#test_cases)
+- [Further_Improvements](#further_improvements)
 
 ## Features
 I followed my professor's instruction on which features I must include for this project:
@@ -49,7 +49,7 @@ gcc minishell.c -o minishell
 Since I am using a Windows system, I have been compiling and running my program in WSL
 
 
-## Test Cases
+## Test_Cases
 I was presented with 20 test cases ranging from simple shell commands to complex pipeline + alias commands. I have provided some of those test cases in this repository
 You can check the correctness of the minishell by running the commands in the real shell
 Minishell on test 19: 
@@ -60,7 +60,7 @@ Real shell on test 19:
 
 <img width="1249" height="282" alt="image" src="https://github.com/user-attachments/assets/c3f92cb0-cba6-4417-8a9b-d950dbfb2ba0" />
 
-## Further Improvements
+## Further_Improvements
 The current version of the minishell possesses the basic functionalities, however, there are still things we can add to make it more sophisticated.
 One of the possible improvements is implementing unalias and enhancing the cd command responses. Furthermore, horizontal expansion is also possible, for example, considering more than 20 tokens in each command, including shell metacharacters and other features.
 Another important upgrade to the program is improving its robustness, such as ability to filter through any leading or trailing spaces or tabs, double quotes, as well as incorrect spelling.
